@@ -1,0 +1,226 @@
+[
+  {
+    "source": "FAC-2026-101",
+    "type_source": "Facture",
+    "relation": "EMISE_PAR",
+    "cible": "TechnoSupply",
+    "type_cible": "Fournisseur",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-101",
+    "type_source": "Facture",
+    "relation": "LIEE_AU_CONTRAT",
+    "cible": "CT-2024-011",
+    "type_cible": "Contrat",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-101",
+    "type_source": "Facture",
+    "relation": "RATTACHEE_AU_PROJET",
+    "cible": "Ambre",
+    "type_cible": "Projet",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-101",
+    "type_source": "Facture",
+    "relation": "IMPUTEE_SUR",
+    "cible": "6135",
+    "type_cible": "CompteComptable",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-101",
+    "type_source": "Facture",
+    "relation": "AFFECTEE_AU_CENTRE",
+    "cible": "CC-IT",
+    "type_cible": "CentreCout",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-101",
+    "type_source": "Facture",
+    "relation": "VALIDEE_PAR",
+    "cible": "DAF",
+    "type_cible": "Employe",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-102",
+    "type_source": "Facture",
+    "relation": "EMISE_PAR",
+    "cible": "MegaConsulting",
+    "type_cible": "Fournisseur",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-102",
+    "type_source": "Facture",
+    "relation": "IMPUTEE_SUR",
+    "cible": "6226",
+    "type_cible": "CompteComptable",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-102",
+    "type_source": "Facture",
+    "relation": "AFFECTEE_AU_CENTRE",
+    "cible": "CC-DIR",
+    "type_cible": "CentreCout",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-102",
+    "type_source": "Facture",
+    "relation": "DEMANDEE_PAR",
+    "cible": "Omar Chraibi",
+    "type_cible": "Employe",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-102",
+    "type_source": "Facture",
+    "relation": "VALIDEE_PAR",
+    "cible": "Omar Chraibi",
+    "type_cible": "Employe",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-102",
+    "type_source": "Facture",
+    "relation": "VIOLE",
+    "cible": "POLITIQUE D'ACHATS INTERNE",
+    "type_cible": "Politique",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-117",
+    "type_source": "Facture",
+    "relation": "DOUBLON_DE",
+    "cible": "FAC-2026-102",
+    "type_cible": "Facture",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-125",
+    "type_source": "Facture",
+    "relation": "EMISE_PAR",
+    "cible": "AtlasVoyages",
+    "type_cible": "Fournisseur",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-125",
+    "type_source": "Facture",
+    "relation": "LIEE_AU_CONTRAT",
+    "cible": "CT-2024-020",
+    "type_cible": "Contrat",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-125",
+    "type_source": "Facture",
+    "relation": "RATTACHEE_AU_PROJET",
+    "cible": "Horizon",
+    "type_cible": "Projet",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-130",
+    "type_source": "Facture",
+    "relation": "EMISE_PAR",
+    "cible": "BuroPlus",
+    "type_cible": "Fournisseur",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-130",
+    "type_source": "Facture",
+    "relation": "VIOLE",
+    "cible": "PROCÉDURE TVA",
+    "type_cible": "Politique",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "FAC-2026-133",
+    "type_source": "Facture",
+    "relation": "VIOLE",
+    "cible": "POLITIQUE D'ACHATS INTERNE",
+    "type_cible": "Politique",
+    "source_doc": "DOC 5"
+  },
+  {
+    "source": "MegaConsulting",
+    "type_source": "Fournisseur",
+    "relation": "A_RISQUE",
+    "cible": "Risque élevé",
+    "type_cible": "Motif de risque",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "TechnoSupply",
+    "type_source": "Fournisseur",
+    "relation": "LIEE_AU_CONTRAT",
+    "cible": "CT-2024-011",
+    "type_cible": "Contrat",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "AtlasVoyages",
+    "type_source": "Fournisseur",
+    "relation": "LIEE_AU_CONTRAT",
+    "cible": "CT-2024-020",
+    "type_cible": "Contrat",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "BuroPlus",
+    "type_source": "Fournisseur",
+    "relation": "LIEE_AU_CONTRAT",
+    "cible": "CT-2023-045",
+    "type_cible": "Contrat",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "Ambre",
+    "type_source": "Projet",
+    "relation": "GERE_PAR",
+    "cible": "IT",
+    "type_cible": "Departement",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "Horizon",
+    "type_source": "Projet",
+    "relation": "GERE_PAR",
+    "cible": "Finance",
+    "type_cible": "Departement",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "Karim Alaoui",
+    "type_source": "Employe",
+    "relation": "DIRIGE",
+    "cible": "IT",
+    "type_cible": "Departement",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "Rim Elmers",
+    "type_source": "Employe",
+    "relation": "DIRIGE",
+    "cible": "Horizon",
+    "type_cible": "Projet",
+    "source_doc": "DOC 4"
+  },
+  {
+    "source": "Sara Benali",
+    "type_source": "Employe",
+    "relation": "DIRIGE",
+    "cible": "Finance",
+    "type_cible": "Departement",
+    "source_doc": "DOC 4"
+  }
+]
